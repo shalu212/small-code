@@ -1,0 +1,16 @@
+
+import java.util.*;
+public class  addnumbers
+{
+public int a;
+public int b;
+public int c;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the First number:"+" ");
+a=sc.nextInt();
+System.out.println("enter second number:"+" ");
+b=sc.nextInt();
+c=a+b;
+
+System.out.println("output  is:"+c);
+}
