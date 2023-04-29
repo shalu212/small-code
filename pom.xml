@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Define the project and its dependencies -->
 import java.util.*;
 public class  addnumbers
 {
@@ -15,6 +21,5 @@ c=a+b;
 
 System.out.println("output  is:"+c);
 }
->
-<!-- Your project details and dependencies go here -->
+
 </project>
